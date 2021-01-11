@@ -3,8 +3,8 @@ import error from './../../Imagenes/error_404.jpg'
 
 const PageNotFound = () => (
   <section className="PageNotFound">
-    <h3>Pagina no Encontrada</h3>
-    <img scr={error} alt="error 404"/>
+    <h3></h3>
+    <img src={error} alt="error 404" width="650" height="400"/>
   </section>
 )
 
